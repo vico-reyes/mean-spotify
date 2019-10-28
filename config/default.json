@@ -1,0 +1,5 @@
+{
+    "saltRounds": 10,
+    "jwtSecret": "meanata",
+    "upload_dir": "./uploads/"
+}

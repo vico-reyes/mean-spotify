@@ -30,6 +30,7 @@ exports.login = function(req,res){
                     var token = jwt.encode({ _id: data._id });
 
                     res.send({data: data, token: token});
+                    console.log("Token: ["+token+"]");
                     
                 }else res.status(403).send({error: "El usuario no existe!!!"})
             }else{
